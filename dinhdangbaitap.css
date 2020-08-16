@@ -1,0 +1,345 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none; 
+}
+.search{
+    width: 62px;
+    color: white;
+    margin-left: 770px;
+    line-height: 50px;
+}
+.search .fa{
+    line-height: 50px;
+    padding-left: 20px;
+}
+.search:hover{
+    background-color: red;
+}
+.menu{
+    background-color: black;
+    height: 50px;  
+    width: 100%;
+    position: fixed;
+}
+ul.dad{
+    display: flex;
+}
+ul.dad > li{
+    position: relative;
+}
+ul.dad > li > a{
+    color: white;
+    padding: 5px 25px 5px 25px ;
+    line-height: 40px;
+    display: block;
+}
+ul.dad > li > a:hover{
+    background-color: rgb(194, 189, 189);
+}
+ul.sub_menu{ 
+    background-color: white;
+    width: 150px;
+    display: none;
+    position: absolute;
+}
+ul.sub_menu li a{
+    line-height: 40px;
+    font-size: 20px;
+    padding-left: 10px;
+    display: block;
+}
+ul.dad > li:hover .sub_menu{
+    display: block;
+} 
+ul.sub_menu li a:hover{
+    background-color: rgb(199, 192, 192);
+}
+.main_item2{
+    width: 100%;
+    background-image: url(./anh1.jpg);
+    height: 700px;
+    background-position: center;
+    
+}
+.title_item2{
+    padding-top: 500px;
+    
+}
+.item21{
+    text-align: center;
+    padding-bottom: 26px;
+    color: white;
+    font-size: 24px;
+}
+.item22{
+    text-align: center;
+    font-size: 500;
+    color: white;
+}
+.content{
+    text-align: center;
+    margin-top: 90px;   
+}
+.head1{
+    font-weight: 200;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.head2{
+    margin-bottom: 30px;
+    font-style: italic;
+    font-size: 20px;
+    
+}
+.head3{
+    width: 800px;
+    margin: auto;
+    text-align: justify;
+}
+.bonus{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    
+}    
+img{
+    width: 55%;
+    border-radius: 5px;
+}
+.heart{
+    
+    padding: 20px;
+    
+}
+#name{
+    margin-bottom: 20px;
+}
+.tour{
+    width: 100%;
+    height: 800px;
+    background-color: black;
+}
+h5{
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 30px;
+}
+h6{
+    color: white;
+    text-align: center;
+    color: rgb(168, 164, 164);
+    padding-top: 20px;
+    font-size: 15px;
+}
+.tour_date{
+    width: 750px;
+    height: 110px;
+    background-color: white;
+    margin: auto;
+    margin-top: 30px;
+}
+.month1{
+    border-bottom: gray solid 1px;
+    display: flex;
+    line-height: 35px;
+
+}
+.sold{
+    background-color: red;
+    width: 60px;
+    height: 20px;
+    margin-top: 5px;
+    margin-left: 30px;
+    line-height: 20px;
+    text-align: center;
+    color: white;
+}
+.month2{
+    line-height: 35px;
+    
+
+}
+#boy{
+    margin-left: 10px;
+    display: flex;
+}
+.ba{
+    background-color: black;
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    color: white;
+    margin-left: 600px;
+    margin-top: 5px;
+}
+#number{
+   line-height: 25px;
+   text-align: center;
+}
+.newyork_head{
+    width: 240px;
+    height: 400px;
+    background-color: white;
+    margin-right: 15px;
+}
+.newyork{
+    width: 240px;
+    height: 200px;
+}
+.paris_head{
+    width: 240px;
+    height: 400px;
+    background-color: white;
+    margin-right: 15px;
+}
+.paris{
+    width: 240px;
+    height: 200px;
+}
+.san_head{
+    width: 240px;
+    height: 400px;
+    background-color: white;
+    
+}
+.san{
+    width: 240px;
+    height: 200px;
+}
+.travel{
+    width: 750px;
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+    text-align: left;
+}
+#bad1{
+    padding: 10px 0px 10px 15px;
+    font-weight: bolder;
+}
+#bad2{
+    padding: 10px 0px 10px 15px;
+    color: rgb(161, 159, 159);
+}
+#bad3{
+    padding: 10px 0px 10px 15px;
+}
+#buy_head{
+    background-color: black;
+    color: white;
+    width: 90px;
+    height: 35px;
+    margin-left: 15px;
+    
+}
+#buy{
+    padding-left: 5px;
+    line-height: 35px;
+}
+#buy:hover{
+    display: block;
+    background-color: gray;
+
+}
+.contact{
+    background-color: white;
+    width: 100%;
+    height: 300px;
+}
+.contact_title1{
+    text-align: center;
+    margin-top: 45px;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+.contact_title2{
+    text-align: center;
+    margin-top: 25px;
+    font-style: italic;
+    color: rgb(175, 172, 172);
+}
+.contact_main{
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+.contact_menu{
+    margin-right: 250px;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 900;
+  
+}
+.contact_box{
+    width: 420px;  
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5px;
+}
+.contact_box .send:hover{
+    background-color: rgb(161, 156, 156);
+}
+.send{
+    width: 60px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    line-height: 30px;
+    text-align: center;
+    margin-left: 360px;
+    margin-top: 10px;
+}
+.contact_box1{
+    border: rgb(180, 177, 177) solid 1px;
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 16px;
+    color: rgb(113, 113, 122);
+}
+.contact_box2{
+    border: rgb(180, 177, 177) solid 1px;
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    color: rgb(94, 94, 99);
+}
+.contact_box3{
+    border: rgb(180, 177, 177) solid 1px;
+    width: 420px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 10px;
+    color: rgb(90, 90, 85);
+}
+.map{
+    width: 100%;
+    height: 900px;
+    background-image: url(./map.jpg);
+    background-size: cover;
+}
+.end{
+    height: 200px;
+    background-color: white;
+}
+.icon{
+    font-size: 25px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.end{
+    color: rgb(170, 165, 165);
+    text-align: center;
+}
+.link a{
+    color: rgb(167, 166, 166);
+    text-decoration: underline gray;
+}
+
